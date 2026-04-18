@@ -148,6 +148,18 @@ namespace ConsoleApp1
             //    Console.WriteLine(item);   }
             //}
             #endregion
+
+            #region Q10 Calculate the total number of units in stock across all products
+
+            //var result = products.Sum(p => p.UnitsInStock);
+            //Console.WriteLine(result);
+            #endregion
+
+
+
+
+
         }
     }
+}
 
