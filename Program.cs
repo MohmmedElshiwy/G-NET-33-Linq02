@@ -23,6 +23,12 @@ namespace ConsoleApp1
             //foreach (var item in result) { Console.WriteLine($" ID : {item.ProductID}   |   Name : {item.ProductName}"); }
             #endregion
 
+
+            #region Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+
+            //var result = products.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
+            //foreach (var i in result) { Console.WriteLine($"Name : {i.ProductName}    |   Price : {i.UnitPrice}"); }
+            #endregion
         }
     }
 }
