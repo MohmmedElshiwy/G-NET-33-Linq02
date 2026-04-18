@@ -29,6 +29,12 @@ namespace ConsoleApp1
             //var result = products.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
             //foreach (var i in result) { Console.WriteLine($"Name : {i.ProductName}    |   Price : {i.UnitPrice}"); }
             #endregion
+
+            #region Check if ALL products in the "Seafood" category are in stock
+
+            //var result = products.Where(p => p.Category.Equals("Seafood")).All(p => p.UnitsInStock>0);
+            //Console.WriteLine(result);
+            #endregion
         }
     }
 }
