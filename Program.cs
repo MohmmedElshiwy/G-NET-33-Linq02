@@ -163,6 +163,22 @@ namespace ConsoleApp1
             //Console.WriteLine(resultOfMax);
             #endregion
 
+            #region Q12 Get a distinct list of all product categories
+
+
+            //var result = products.Select(p => p.Category).Distinct();
+            //foreach (var i in result) { Console.WriteLine(i); }
+
+            //var result = products.DistinctBy(p => p.Category);
+            //foreach(var i in result) { Console.WriteLine(i.Category); }
+        
+               
+      
+           
+
+        
+            #endregion
+
 
 
 
