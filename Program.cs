@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.DataSources;
+using ConsoleApp1.DataSources.Models;
 
 namespace ConsoleApp1
 {
@@ -41,6 +42,19 @@ namespace ConsoleApp1
 
             //var result = ids.Contains(9);
             //Console.WriteLine(result);
+            #endregion
+
+            #region Q6 Group all products by Category and print each group with its product count.
+
+            //var result = products.GroupBy(p => p.Category)
+            //    .Select(g => new
+            //    {
+            //         CategryName = g.Key,
+            //         NumberOfProducts = g.Count()
+            //    });
+
+            //foreach (var item in result) { Console.WriteLine(item); }
+
             #endregion
         }
     }
