@@ -56,6 +56,44 @@ namespace ConsoleApp1
             //foreach (var item in result) { Console.WriteLine(item); }
 
             #endregion
+
+
+            #region Q7 Group products by Category and project only product names group
+            //var result = products.GroupBy(p => p.Category);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine("CategoryName :"+item.Key +"\n");
+
+            //    Console.WriteLine("==== Products ====");
+            //    foreach (var p in item) { Console.WriteLine($" {p.ProductName}"); }
+
+            //    Console.WriteLine("===================================\n");
+            //}
+
+            //var result = products.GroupBy(p => p.Category)
+            //    .Select(g => new
+            //    {
+            //        CategoryName = g.Key,
+            //        ProductsName = g.Select(p => p.ProductName).ToList()
+            //    });
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine("┌──────────────────────────────┐");
+            //    Console.WriteLine($"│ Category: {item.CategoryName}");
+            //    Console.WriteLine("├──────────────────────────────┤");
+            //        Console.WriteLine("---- Product Name ----");
+
+            //    foreach (var p in item.ProductsName) {
+
+            //        Console.WriteLine($"{p}");
+            //        //Console.WriteLine("└──────────────────────────────┘\n");
+
+
+            //    }
+            //    Console.WriteLine("└──────────────────────────────┘\n");
+
+            //}
+            #endregion
         }
     }
 }
