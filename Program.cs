@@ -94,6 +94,34 @@ namespace ConsoleApp1
 
             //}
             #endregion
+
+
+            #region Q8 Find all categories that have MORE THAN 3 products
+            //var result = products.GroupBy(p => p.Category)
+            //  .Where(g => g.Count() > 3)
+            //  .Select(g => new
+            //  {
+            //      CategoryName = g.Key,
+            //      ProductName = g.Select(p => p.ProductName)
+
+            //  });
+            //foreach (var item in result) {
+
+            //    Console.WriteLine("========================================================");
+            //    Console.WriteLine("| Category       | Product                             |");
+            //    Console.WriteLine("========================================================");
+
+            //    foreach (var name in item.ProductName)
+            //    {
+            //        Console.WriteLine($"| {item.CategoryName,-14} | {name,-35} |");
+            //    }
+            //    Console.WriteLine("========================================================");
+
+            //}
+
+            #endregion
+
+
         }
     }
 }
