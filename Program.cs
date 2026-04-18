@@ -155,6 +155,14 @@ namespace ConsoleApp1
             //Console.WriteLine(result);
             #endregion
 
+            #region Q11 Find the CHEAPEST and MOST EXPENSIVE product prices
+
+            //var resultOfMin = products.Min(p => p.UnitPrice);
+            //var resultOfMax = products.Max(p => p.UnitPrice);
+            //Console.WriteLine(resultOfMin);
+            //Console.WriteLine(resultOfMax);
+            #endregion
+
 
 
 
