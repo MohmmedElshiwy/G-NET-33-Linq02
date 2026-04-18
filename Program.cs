@@ -1,5 +1,6 @@
 ﻿using ConsoleApp1.DataSources;
 using ConsoleApp1.DataSources.Models;
+using System.Diagnostics.Metrics;
 
 namespace ConsoleApp1
 {
@@ -8,6 +9,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var products = Source.ProductList;
+            var customers = Source.CustomerList;
 
             #region Q1 Get top 3 most expensive products
 
@@ -121,7 +123,31 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Q9 Using QUERY SYNTAX, group customers by Country, and for eachgroup select { Country, Count, TotalOrderValue }.
 
+
+            //var result = customers.GroupBy(c => c.Country)
+            //    .Select(co => new
+            //    {
+            //        Country = co.Key,
+            //        Count = co.Count(),
+            //        TotalOrderValue = co.SelectMany(o => o.Orders).Sum(o => o.Total)
+            //    });
+
+            //var result = from c in customers
+            //             group c by c.Country into co
+            //             select new
+            //             {
+            //                 Country = co.Key,
+            //                 Count = co.Count(),
+            //                 TotalOrderValue = co.Sum(c => c.Orders.Sum(o => o.Total))
+
+            //             };
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);   }
+            //}
+            #endregion
         }
     }
-}
+
