@@ -171,15 +171,16 @@ namespace ConsoleApp1
 
             //var result = products.DistinctBy(p => p.Category);
             //foreach(var i in result) { Console.WriteLine(i.Category); }
-        
-               
-      
-           
 
-        
             #endregion
 
+            #region Q13 find product IDs that are in setA but NOT in setB
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
 
+            //var r = setA.Except(setB);
+            //foreach (var i in r) { Console.WriteLine(i); }
+                #endregion
 
 
 
