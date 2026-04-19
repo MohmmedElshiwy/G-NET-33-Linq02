@@ -230,6 +230,25 @@ namespace ConsoleApp1
             //Console.ReadKey();
             #endregion
 
+            #region Q20 Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+            //var productName = products.OrderBy(p => p.ProductID)
+            //    .Select(p => p.ProductName).Take(3);
+            //var companyName = customers.OrderBy(c=>c.CustomerID).Select(c=>c.CompanyName).Take(3);
+            //var result = productName.Concat(companyName);
+            //foreach(var item in result) { Console.WriteLine(item); }
+            //Console.ReadLine();
+
+            //var result = products.OrderBy(p => p.ProductID)
+            //    .Select(p => "Product Name" + p.ProductName).Take(3)
+            //    .Concat(customers.OrderBy(c => c.CustomerID)
+            //    .Select(c => $"Company Name: {c.CompanyName}").Take(3));
+            //foreach (var product in result) { Console.WriteLine(product); }
+            //Console.ReadLine();
+                
+                
+                
+                #endregion
+
         }
     }
 }
