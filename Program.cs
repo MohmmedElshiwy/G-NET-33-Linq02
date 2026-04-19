@@ -214,8 +214,14 @@ namespace ConsoleApp1
 
             //var result = products.FirstOrDefault(p => p.UnitPrice > 500);
             //Console.WriteLine(result==null ? "There's no Product with a price greater than $500" : result);
-        //Console.ReadKey();
+            //Console.ReadKey();
 
+            #endregion
+
+            #region Q18 Generate a multiplication table row for 7
+            //var result = Enumerable.Range(1, 12).Select(i => $"7 x {i} = {7 * i}");
+            //foreach (var i in result) { Console.WriteLine(i); }
+            //Console.ReadLine();
             #endregion
         }
     }
