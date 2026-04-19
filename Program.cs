@@ -210,7 +210,13 @@ namespace ConsoleApp1
             //Console.ReadKey();
             #endregion
 
+            #region Q17 Try to get the first product with a price > $500. it returns null instead of throwing.
 
+            //var result = products.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(result==null ? "There's no Product with a price greater than $500" : result);
+        //Console.ReadKey();
+
+            #endregion
         }
     }
 }
