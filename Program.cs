@@ -203,6 +203,13 @@ namespace ConsoleApp1
             //}
             #endregion
 
+            #region Q16 Get the first product whose price is greater than $50.
+
+            //var result = FirstOrDefault(p => p.UnitPrice > 50);
+            //Console.WriteLine(result);
+            //Console.ReadKey();
+            #endregion
+
 
         }
     }
