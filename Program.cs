@@ -183,8 +183,8 @@ namespace ConsoleApp1
             #endregion
 
             #region Q14 Find countries that appear in list1 but NOT in list2(case -insensitive).
-                //string[] list1 = { "Germany", "France", "UK", "Spain" };
-                //string[] list2 = { "france", "SPAIN", "Italy" };
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
 
             //var result = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
 
@@ -193,7 +193,18 @@ namespace ConsoleApp1
 
             #endregion
 
-            }
+            #region Q15 Build a Dictionary<int, Product> keyed by ProductID Then retrieve and print the product with ID = 18
+
+            //var dic = products.ToDictionary(p => p.ProductID);
+            //if (dic.TryGetValue(18, out var product))
+            //{
+            //    Console.WriteLine(product);
+            //    Console.ReadKey();
+            //}
+            #endregion
+
+
+        }
     }
 }
 
