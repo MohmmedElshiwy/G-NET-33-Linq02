@@ -223,6 +223,13 @@ namespace ConsoleApp1
             //foreach (var i in result) { Console.WriteLine(i); }
             //Console.ReadLine();
             #endregion
+
+            #region Q19 Generate even numbers between 1 and 30.
+            //var result = Enumerable.Range(1,30).Select(i => $"{i} % 2 = {i%2==0}");
+            //foreach(var i in result) { if(i.Contains("False")) continue; Console.WriteLine(i); }
+            //Console.ReadKey();
+            #endregion
+
         }
     }
 }
