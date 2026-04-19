@@ -244,10 +244,16 @@ namespace ConsoleApp1
             //    .Select(c => $"Company Name: {c.CompanyName}").Take(3));
             //foreach (var product in result) { Console.WriteLine(product); }
             //Console.ReadLine();
-                
-                
-                
-                #endregion
+
+
+
+            #endregion
+
+            #region Q21 Pair each product with a customer (by position) and produce a string "ProductName sold to CompanyName".
+            //var result = products.Zip(customers,(p, c) => $"ProductName: {p.ProductName} sold to CompanyName: {c.CompanyName}");
+            //foreach (var item in result) { Console.WriteLine(item); }
+            //Console.ReadLine();
+            #endregion
 
         }
     }
